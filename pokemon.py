@@ -12,7 +12,7 @@ class Pokemon:
     def display_details(self):
         print(f"Entry Number: {self.entry}")
         print(f"Name: {self.name}")
-        print(f"Type: {self.type}")  # your way ✅
+        print(f"Type: {self.type}")  
         print(f"Description: {self.description}")
         if self.is_caught:
             print(f"{self.name} has already been caught!")
